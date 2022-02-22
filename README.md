@@ -1,8 +1,14 @@
 # odin-recipes
 
 HTML project from The Odin Project
-This is being set up via git, I haven't forgetten much yet which is good (... Let me see if a smiley face emoji will work) 😁
 
-Let's try pushing a commit via git, see if I can remember
+This is being done using the following:
 
-Eyyy I did it, looks like I haven't forgotten everything just yet
+- Iterm2 for the terminal
+- VS for the IDE
+- Odin Project as the course
+- Google for any random problems or when I get stuck
+- A pinch of patience
+- A handful of meme's
+
+<img src="https://www.thecoderpedia.com/wp-content/uploads/2020/06/Programming-Memes-Programmer-while-sleeping.jpg?x34900">
