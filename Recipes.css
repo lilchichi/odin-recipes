@@ -1,0 +1,11 @@
+.buttons {
+  margin: 100;
+  color: #eeeeee;
+  display: flex;
+  align-items: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
