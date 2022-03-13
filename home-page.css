@@ -18,21 +18,7 @@ li {
 	gap: 10px;
 	list-style: none;
 }
-
-header.container {
-	background: blue;
-	color: white;
-}
-
-header .container h1,
-p {
+.h1 {
 	display: flex;
-	justify-content: center;
-	margin: 20px;
-}
-
-img {
-	max-width: 500px;
-	margin: 50 50;
-	margin-left: 450px;
+	align-items: center;
 }
