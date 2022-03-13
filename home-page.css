@@ -1,9 +1,38 @@
-.container {
-	width: auto;
-	height: auto;
-}
-
 .navbar {
 	background: yellow;
 	color: blue;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+.container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+ul,
+li {
+	display: flex;
+	gap: 10px;
+	list-style: none;
+}
+
+header.container {
+	background: blue;
+	color: white;
+}
+
+header .container h1,
+p {
+	display: flex;
+	justify-content: center;
+	margin: 20px;
+}
+
+img {
+	max-width: 500px;
+	margin: 50 50;
+	margin-left: 450px;
 }
