@@ -1,0 +1,9 @@
+.container {
+	width: auto;
+	height: auto;
+}
+
+.navbar {
+	background: yellow;
+	color: blue;
+}
