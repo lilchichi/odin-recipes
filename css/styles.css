@@ -1,3 +1,5 @@
+/* index.html file*/
+
 html,
 body {
 	margin: 0;
@@ -8,6 +10,13 @@ body {
 }
 
 /*=== Navbar ===*/
+.navbar {
+	/* background: ; */
+	color: blue;
+	padding: 10px;
+	display: flex;
+}
+
 .navbar {
 	background: yellow;
 	color: blue;
@@ -170,4 +179,126 @@ img {
 
 .image-entire-col .container img {
 	border-radius: 30px;
+}
+
+/* recipes-page.html file*/
+
+ul,
+li {
+	display: flex;
+	gap: 10px;
+	list-style: none;
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+}
+
+.buttons {
+	margin: 100;
+	color: #eeeeee;
+	display: flex;
+	align-items: center;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+.container .buttons {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	margin-top: 50px;
+}
+
+/* recipes-details.html file*/
+
+.overview {
+	display: flex;
+	align-items: center;
+}
+
+.img {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.overview .left .right {
+	display: flex;
+	flex-direction: column;
+}
+
+.overview .left {
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.overview .right {
+	margin: 25px;
+}
+
+.detail {
+	display: flex;
+	align-items: center;
+}
+
+.detail .left .right {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.ingredients1 {
+	display: flex;
+	margin-right: 50px;
+	margin-left: 50px;
+	flex-wrap: nowrap;
+	flex-direction: row;
+}
+
+.ingredients2 {
+	display: flex;
+	margin-right: 50px;
+	margin-left: 50px;
+	flex-wrap: nowrap;
+	flex-direction: row;
+}
+
+.detail h1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+h1,
+h2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.instructions {
+	display: flex;
+	margin: 5px 100px;
+	justify-content: center;
+	align-items: center;
+}
+
+ol,
+li,
+.boxes,
+.checkboxes {
+	display: flex;
+	gap: 10px;
+	flex-direction: column;
+	justify-content: space-between;
 }
